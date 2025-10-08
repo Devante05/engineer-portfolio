@@ -84,7 +84,7 @@ export default function Projects() {
 
         {/* Featured projects */}
         <div className="grid md:grid-cols-2 gap-8 mb-16">
-          {featuredProjects.map((project, index) => (
+          {featuredProjects.map((project, _index) => (
             <div 
               key={project.id} 
               className="crypto-card group hover:scale-105 transition-all duration-300"
