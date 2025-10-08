@@ -50,7 +50,7 @@ export default function About() {
               <div className="text-center space-y-4">
                 {/* Profile placeholder */}
                 <div className="w-48 h-48 mx-auto bg-gradient-to-br from-crypto-accent to-crypto-purple rounded-full flex items-center justify-center">
-                  <span className="text-6xl text-white font-bold">DS</span>
+                  <span className="text-6xl text-white font-bold">DW</span>
                 </div>
                 
                 <h3 className="text-2xl font-bold text-white">Devante Williams</h3>
