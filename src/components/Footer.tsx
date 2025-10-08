@@ -29,13 +29,6 @@ export default function Footer() {
               >
                 <span className="text-sm font-bold">LI</span>
               </a>
-              <a 
-                href="#" 
-                className="w-10 h-10 border border-crypto-accent rounded-full flex items-center justify-center hover:bg-crypto-accent hover:text-black transition-all duration-300"
-                aria-label="Twitter"
-              >
-                <span className="text-sm font-bold">TW</span>
-              </a>
             </div>
           </div>
 
@@ -91,13 +84,13 @@ export default function Footer() {
             <h4 className="text-white font-bold mb-4">Get In Touch</h4>
             <div className="space-y-2">
               <p className="text-gray-300">
-                <span className="text-crypto-accent">Email:</span> devante@example.com
+                <span className="text-crypto-accent">Email:</span> williams.devante05@gmail.com
               </p>
               <p className="text-gray-300">
-                <span className="text-crypto-accent">Phone:</span> +1 (234) 567-8900
+                <span className="text-crypto-accent">Phone:</span> +1 (512) 739-1534
               </p>
               <p className="text-gray-300">
-                <span className="text-crypto-accent">Location:</span> San Francisco, CA
+                <span className="text-crypto-accent">Location:</span> Austin, TX
               </p>
             </div>
           </div>
@@ -106,19 +99,8 @@ export default function Footer() {
         {/* Bottom section */}
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © {currentYear} Devante Smith. All rights reserved.
+            © {currentYear} Devante Williams. All rights reserved.
           </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-crypto-accent text-sm transition-colors duration-300">
-              Privacy Policy
-            </a>
-            <a href="#" className="text-gray-400 hover:text-crypto-accent text-sm transition-colors duration-300">
-              Terms of Service
-            </a>
-            <a href="#" className="text-gray-400 hover:text-crypto-accent text-sm transition-colors duration-300">
-              Cookie Policy
-            </a>
-          </div>
         </div>
 
         {/* Back to top button */}
