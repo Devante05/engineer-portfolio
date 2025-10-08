@@ -4,10 +4,10 @@ const skillCategories = [
     icon: '🎨',
     skills: [
       { name: 'React', level: 95 },
-      { name: 'TypeScript', level: 90 },
+      { name: 'TypeScript', level: 92 },
       { name: 'Next.js', level: 88 },
       { name: 'Vue.js', level: 82 },
-      { name: 'Tailwind CSS', level: 92 },
+      { name: 'Tailwind CSS', level: 89 },
       { name: 'HTML/CSS', level: 95 }
     ]
   },
@@ -15,7 +15,7 @@ const skillCategories = [
     title: 'Backend',
     icon: '⚙️',
     skills: [
-      { name: 'Node.js', level: 90 },
+      { name: 'Node.js', level: 91 },
       { name: 'Python', level: 85 },
       { name: 'Express.js', level: 88 },
       { name: 'FastAPI', level: 80 },
@@ -30,7 +30,7 @@ const skillCategories = [
       { name: 'PostgreSQL', level: 88 },
       { name: 'MongoDB', level: 85 },
       { name: 'Redis', level: 78 },
-      { name: 'Prisma', level: 85 },
+      { name: 'DynamoDB', level: 85 },
       { name: 'MySQL', level: 82 },
       { name: 'Firebase', level: 80 }
     ]
@@ -39,11 +39,11 @@ const skillCategories = [
     title: 'DevOps & Tools',
     icon: '🚀',
     skills: [
-      { name: 'Docker', level: 82 },
-      { name: 'AWS', level: 80 },
+      { name: 'Docker', level: 85 },
+      { name: 'AWS', level: 86 },
       { name: 'Git', level: 95 },
-      { name: 'CI/CD', level: 78 },
-      { name: 'Linux', level: 85 },
+      { name: 'CI/CD', level: 80 },
+      { name: 'Terraform', level: 84 },
       { name: 'Vercel', level: 90 }
     ]
   }
@@ -103,55 +103,6 @@ export default function Skills() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Additional info */}
-        <div className="grid md:grid-cols-3 gap-8 mt-16">
-          <div className="crypto-card text-center">
-            <div className="text-3xl mb-4">📚</div>
-            <h4 className="text-xl font-bold text-white mb-2">Continuous Learning</h4>
-            <p className="text-gray-300">
-              Always exploring new technologies and staying up-to-date with industry trends
-            </p>
-          </div>
-          
-          <div className="crypto-card text-center">
-            <div className="text-3xl mb-4">🤝</div>
-            <h4 className="text-xl font-bold text-white mb-2">Team Collaboration</h4>
-            <p className="text-gray-300">
-              Experienced in agile methodologies and cross-functional team environments
-            </p>
-          </div>
-          
-          <div className="crypto-card text-center">
-            <div className="text-3xl mb-4">🔧</div>
-            <h4 className="text-xl font-bold text-white mb-2">Problem Solving</h4>
-            <p className="text-gray-300">
-              Strong analytical skills with a focus on efficient and scalable solutions
-            </p>
-          </div>
-        </div>
-
-        {/* Certifications or achievements */}
-        <div className="mt-16 text-center">
-          <h3 className="text-2xl font-bold text-white mb-8">Certifications & Achievements</h3>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="border border-crypto-accent/30 rounded-lg p-4 hover:border-crypto-accent transition-colors duration-300">
-              <div className="text-2xl mb-2">🏆</div>
-              <h5 className="font-bold text-crypto-accent">AWS Certified</h5>
-              <p className="text-sm text-gray-400">Cloud Practitioner</p>
-            </div>
-            <div className="border border-crypto-accent/30 rounded-lg p-4 hover:border-crypto-accent transition-colors duration-300">
-              <div className="text-2xl mb-2">🎯</div>
-              <h5 className="font-bold text-crypto-accent">React Specialist</h5>
-              <p className="text-sm text-gray-400">Meta Certification</p>
-            </div>
-            <div className="border border-crypto-accent/30 rounded-lg p-4 hover:border-crypto-accent transition-colors duration-300">
-              <div className="text-2xl mb-2">⚡</div>
-              <h5 className="font-bold text-crypto-accent">Full Stack Dev</h5>
-              <p className="text-sm text-gray-400">FreeCodeCamp</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>

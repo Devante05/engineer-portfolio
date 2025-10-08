@@ -68,8 +68,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">Email</h4>
-                    <a href="mailto:devante@example.com" className="text-crypto-accent hover:underline">
-                      devante@example.com
+                    <a href="mailto:williams.devante05@gmail.com" className="text-crypto-accent hover:underline">
+                      williams.devante05@gmail.com
                     </a>
                   </div>
                 </div>
@@ -81,7 +81,7 @@ export default function Contact() {
                   <div>
                     <h4 className="text-white font-semibold">Phone</h4>
                     <a href="tel:+1234567890" className="text-crypto-accent hover:underline">
-                      +1 (234) 567-8900
+                      +1 (512) 739-1534
                     </a>
                   </div>
                 </div>
@@ -92,7 +92,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">Location</h4>
-                    <p className="text-gray-300">San Francisco, CA</p>
+                    <p className="text-gray-300">Austin, TX</p>
                   </div>
                 </div>
               </div>
@@ -114,20 +114,6 @@ export default function Contact() {
                     aria-label="LinkedIn"
                   >
                     <span className="font-bold">LI</span>
-                  </a>
-                  <a 
-                    href="#" 
-                    className="w-12 h-12 border border-crypto-accent rounded-full flex items-center justify-center hover:bg-crypto-accent hover:text-black transition-all duration-300"
-                    aria-label="Twitter"
-                  >
-                    <span className="font-bold">TW</span>
-                  </a>
-                  <a 
-                    href="#" 
-                    className="w-12 h-12 border border-crypto-accent rounded-full flex items-center justify-center hover:bg-crypto-accent hover:text-black transition-all duration-300"
-                    aria-label="Instagram"
-                  >
-                    <span className="font-bold">IG</span>
                   </a>
                 </div>
               </div>

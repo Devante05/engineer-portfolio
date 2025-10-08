@@ -35,7 +35,7 @@ export default function About() {
               {/* Key stats */}
               <div className="grid grid-cols-2 gap-6 mt-8">
                 <div className="crypto-card text-center">
-                  <div className="text-3xl font-bold crypto-text-glow mb-2">3+</div>
+                  <div className="text-3xl font-bold crypto-text-glow mb-2">5+</div>
                   <div className="text-sm text-gray-400">Years Experience</div>
                 </div>
                 <div className="crypto-card text-center">
@@ -53,19 +53,16 @@ export default function About() {
                   <span className="text-6xl text-white font-bold">DS</span>
                 </div>
                 
-                <h3 className="text-2xl font-bold text-white">Devante Smith</h3>
+                <h3 className="text-2xl font-bold text-white">Devante Williams</h3>
                 <p className="text-crypto-accent font-semibold">Full Stack Developer</p>
                 
                 {/* Social links */}
                 <div className="flex justify-center space-x-4 pt-4">
-                  <a href="#" className="w-10 h-10 border border-crypto-accent rounded-full flex items-center justify-center hover:bg-crypto-accent hover:text-black transition-all duration-300">
+                  <a href="https://github.com/Devante05" className="w-10 h-10 border border-crypto-accent rounded-full flex items-center justify-center hover:bg-crypto-accent hover:text-black transition-all duration-300">
                     <span className="text-sm font-bold">GH</span>
                   </a>
-                  <a href="#" className="w-10 h-10 border border-crypto-accent rounded-full flex items-center justify-center hover:bg-crypto-accent hover:text-black transition-all duration-300">
+                  <a href="https://www.linkedin.com/in/devante-williams-" className="w-10 h-10 border border-crypto-accent rounded-full flex items-center justify-center hover:bg-crypto-accent hover:text-black transition-all duration-300">
                     <span className="text-sm font-bold">LI</span>
-                  </a>
-                  <a href="#" className="w-10 h-10 border border-crypto-accent rounded-full flex items-center justify-center hover:bg-crypto-accent hover:text-black transition-all duration-300">
-                    <span className="text-sm font-bold">TW</span>
                   </a>
                 </div>
               </div>
