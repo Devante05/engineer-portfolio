@@ -70,6 +70,14 @@ export default function Footer() {
               </li>
               <li>
                 <button 
+                  onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="text-gray-300 hover:text-crypto-accent transition-colors duration-300"
+                >
+                  Experience
+                </button>
+              </li>
+              <li>
+                <button 
                   onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                   className="text-gray-300 hover:text-crypto-accent transition-colors duration-300"
                 >

@@ -46,6 +46,12 @@ export default function Header() {
             Skills
           </button>
           <button 
+            onClick={() => scrollToSection('experience')}
+            className="text-gray-300 hover:text-crypto-accent transition-colors duration-300"
+          >
+            Experience
+          </button>
+          <button 
             onClick={() => scrollToSection('contact')}
             className="text-gray-300 hover:text-crypto-accent transition-colors duration-300"
           >
@@ -88,6 +94,12 @@ export default function Header() {
                 className="text-gray-300 hover:text-crypto-accent transition-colors duration-300 text-left"
               >
                 Skills
+              </button>
+              <button 
+                onClick={() => scrollToSection('experience')}
+                className="text-gray-300 hover:text-crypto-accent transition-colors duration-300 text-left"
+              >
+                Experience
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
