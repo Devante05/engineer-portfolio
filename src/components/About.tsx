@@ -16,20 +16,13 @@ export default function About() {
             {/* Text content */}
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-                I'm a passionate software engineer with expertise in building scalable web applications 
-                and modern user experiences. With a strong foundation in both frontend and backend technologies, 
-                I enjoy solving complex problems and turning ideas into reality.
+                Results-driven Full Stack Engineer with a proven record of delivering high-quality applications. 
+                Experienced in frontend and backend development using modern frameworks and databases.
               </p>
               
               <p className="text-lg text-gray-300 leading-relaxed">
-                My journey in software development has led me to work with cutting-edge technologies 
-                including React, Node.js, TypeScript, and various cloud platforms. I believe in writing 
-                clean, maintainable code and following best practices.
-              </p>
-
-              <p className="text-lg text-gray-300 leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, contributing to open source 
-                projects, or sharing knowledge with the developer community.
+                Skilled in automation and integrating AI solutions to drive innovation where it adds value. 
+                Strong problem-solving and algorithmic abilities, committed to building impactful and efficient solutions.
               </p>
 
               {/* Key stats */}
@@ -49,7 +42,7 @@ export default function About() {
             <div className="crypto-card">
               <div className="text-center space-y-4">
                 {/* Profile picture */}
-                <div className="w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-crypto-accent">
+                <div className="w-64 h-64 mx-auto rounded-full overflow-hidden border-4 border-crypto-accent">
                   <img 
                     src="/images/profile-picture.png" 
                     alt="Devante Williams - Software Engineer"
