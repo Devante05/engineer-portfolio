@@ -98,7 +98,7 @@ export default function Projects() {
         </div>
 
         {/* Other projects */}
-        <div>
+        {/* <div>
           <h3 className="text-3xl font-bold text-center mb-12">
             <span className="text-white">Other</span>{' '}
             <span className="crypto-text-glow">Projects</span>
@@ -158,7 +158,7 @@ export default function Projects() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Call to action */}
         <div className="text-center mt-16">
