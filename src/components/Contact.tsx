@@ -152,7 +152,7 @@ export default function Contact() {
                       Scan QR code or download
                     </p>
                     <a 
-                      href="/DevanteWilliamsResume.pdf" 
+                      href="/DevanteResume.pdf" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm px-3 py-1 border border-crypto-accent text-crypto-accent rounded hover:bg-crypto-accent hover:text-black transition-all duration-300 inline-block"
