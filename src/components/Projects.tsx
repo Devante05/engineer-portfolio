@@ -13,8 +13,8 @@ const projects = [
   {
     id: 2,
     title: 'Cryptocurrency Store',
-    description: 'A fully responsive front-end cryptocurrency store built with React, TypeScript and compiled using Vite. Deployed using Vercel.',
-    technologies: ['TypeScript', 'React', 'Express', 'Vite', 'Vercel'],
+    description: 'A fully responsive client-side cryptocurrency store built with React, TypeScript and compiled using Vite. Deployed using Vercel.',
+    technologies: ['TypeScript', 'React', 'Vite', 'Vercel'],
     demoUrl: 'https://crypto-store-nine.vercel.app/',
     githubUrl: 'https://github.com/Devante05/crypto-store',
     image: 'https://via.placeholder.com/400x250/00ff88/000000?text=Task+Manager',
