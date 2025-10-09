@@ -4,7 +4,7 @@ export default function WorkExperience() {
       title: 'Continuous Operations Software Engineer',
       company: 'Gerson Lehrman Group',
       location: 'Austin, TX',
-      period: '06/2021 - Present',
+      period: '06/2021 - 10/2025',
       responsibilities: [
         'Develop and maintain frontend and backend software solutions to enhance application features and performance',
         'Resolve tickets related to application bugs and errors, implementing optimal software solutions',
