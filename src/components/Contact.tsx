@@ -20,15 +20,33 @@ export default function Contact() {
     e.preventDefault()
     setIsSubmitting(true)
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000))
+    try {
+      // Formspree endpoint for contact form
+      const response = await fetch('https://formspree.io/f/mnnggnpv', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        }),
+      })
+      
+      if (response.ok) {
+        setFormData({ name: '', email: '', subject: '', message: '' })
+        alert('Message sent successfully! I will get back to you soon.')
+      } else {
+        throw new Error('Failed to send message')
+      }
+    } catch (error) {
+      console.error('Error sending message:', error)
+      alert('Failed to send message. Please try again or contact me directly at williams.devante05@gmail.com')
+    }
     
-    // Reset form
-    setFormData({ name: '', email: '', subject: '', message: '' })
     setIsSubmitting(false)
-    
-    // Show success message (you can replace this with actual form handling)
-    alert('Message sent successfully! I will get back to you soon.')
   }
 
   return (
