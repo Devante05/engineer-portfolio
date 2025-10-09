@@ -2,63 +2,23 @@
 const projects = [
   {
     id: 1,
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce solution built with Next.js, TypeScript, and Stripe integration. Features include user authentication, product management, shopping cart, and payment processing.',
-    technologies: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Tailwind CSS'],
-    demoUrl: '#',
-    githubUrl: '#',
+    title: 'Small Business Website',
+    description: 'A front-end commercial website built with React and TypeScript. Deployed using Vercel.',
+    technologies: ['TypeScript', 'React', 'Express', 'Vercel'],
+    demoUrl: 'https://atx-iphone-repair.vercel.app/',
+    githubUrl: 'https://github.com/Devante05/iphone-repair',
     image: 'https://via.placeholder.com/400x250/00d4ff/ffffff?text=E-Commerce+Platform',
     featured: true
   },
   {
     id: 2,
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-    technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Express'],
-    demoUrl: '#',
-    githubUrl: '#',
+    title: 'Cryptocurrency Store',
+    description: 'A front-end cryptocurrency store built with React, TypeScript and compiled using Vite. Deployed using Vercel.',
+    technologies: ['TypeScript', 'React', 'Express', 'Vite', 'Vercel'],
+    demoUrl: 'https://crypto-store-nine.vercel.app/',
+    githubUrl: 'https://github.com/Devante05/crypto-store',
     image: 'https://via.placeholder.com/400x250/00ff88/000000?text=Task+Manager',
     featured: true
-  },
-  {
-    id: 3,
-    title: 'Weather Dashboard',
-    description: 'A responsive weather application that provides current weather conditions, forecasts, and interactive maps using multiple weather APIs.',
-    technologies: ['Vue.js', 'JavaScript', 'Weather API', 'Chart.js'],
-    demoUrl: '#',
-    githubUrl: '#',
-    image: 'https://via.placeholder.com/400x250/8b5cf6/ffffff?text=Weather+App',
-    featured: false
-  },
-  {
-    id: 4,
-    title: 'Crypto Portfolio Tracker',
-    description: 'A cryptocurrency portfolio tracking application with real-time price updates, portfolio analytics, and market trends visualization.',
-    technologies: ['React', 'TypeScript', 'CoinGecko API', 'Recharts'],
-    demoUrl: '#',
-    githubUrl: '#',
-    image: 'https://via.placeholder.com/400x250/ff6b35/ffffff?text=Crypto+Tracker',
-    featured: false
-  },
-  {
-    id: 5,
-    title: 'AI Chat Application',
-    description: 'An intelligent chat application powered by AI with natural language processing, conversation history, and custom bot personalities.',
-    technologies: ['Next.js', 'OpenAI API', 'Prisma', 'PostgreSQL'],
-    demoUrl: '#',
-    githubUrl: '#',
-    image: 'https://via.placeholder.com/400x250/00d4ff/000000?text=AI+Chat+Bot',
-    featured: false
-  },
-  {
-    id: 6,
-    title: 'Developer Blog',
-    description: 'A modern blog platform for developers with markdown support, syntax highlighting, comments system, and SEO optimization.',
-    technologies: ['Gatsby', 'GraphQL', 'Contentful', 'React'],
-    demoUrl: '#',
-    githubUrl: '#',
-    image: 'https://via.placeholder.com/400x250/00ff88/000000?text=Dev+Blog',
-    featured: false
   }
 ]
 
