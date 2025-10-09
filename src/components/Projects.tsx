@@ -24,7 +24,7 @@ const projects = [
 
 export default function Projects() {
   const featuredProjects = projects.filter(project => project.featured)
-  const otherProjects = projects.filter(project => !project.featured)
+  // const otherProjects = projects.filter(project => !project.featured)
 
   return (
     <section id="projects" className="py-20 bg-gradient-to-b from-gray-900 to-black">
