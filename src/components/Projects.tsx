@@ -3,7 +3,7 @@ const projects = [
   {
     id: 1,
     title: 'Small Business Website',
-    description: 'A front-end commercial website built with React and TypeScript. Deployed using Vercel.',
+    description: 'A fully responsive front-end commercial website built with React and TypeScript. Deployed using Vercel.',
     technologies: ['TypeScript', 'React', 'Express', 'Vercel'],
     demoUrl: 'https://atx-iphone-repair.vercel.app/',
     githubUrl: 'https://github.com/Devante05/iphone-repair',
@@ -13,7 +13,7 @@ const projects = [
   {
     id: 2,
     title: 'Cryptocurrency Store',
-    description: 'A front-end cryptocurrency store built with React, TypeScript and compiled using Vite. Deployed using Vercel.',
+    description: 'A fully responsive front-end cryptocurrency store built with React, TypeScript and compiled using Vite. Deployed using Vercel.',
     technologies: ['TypeScript', 'React', 'Express', 'Vite', 'Vercel'],
     demoUrl: 'https://crypto-store-nine.vercel.app/',
     githubUrl: 'https://github.com/Devante05/crypto-store',
