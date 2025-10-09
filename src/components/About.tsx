@@ -48,9 +48,13 @@ export default function About() {
             {/* Profile card */}
             <div className="crypto-card">
               <div className="text-center space-y-4">
-                {/* Profile placeholder */}
-                <div className="w-48 h-48 mx-auto bg-gradient-to-br from-crypto-accent to-crypto-purple rounded-full flex items-center justify-center">
-                  <span className="text-6xl text-white font-bold">DW</span>
+                {/* Profile picture */}
+                <div className="w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-crypto-accent">
+                  <img 
+                    src="/images/profile-picture.png" 
+                    alt="Devante Williams - Software Engineer"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 
                 <h3 className="text-2xl font-bold text-white">Devante Williams</h3>

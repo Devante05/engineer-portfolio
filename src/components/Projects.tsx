@@ -7,7 +7,7 @@ const projects = [
     technologies: ['TypeScript', 'React', 'Express', 'Vercel'],
     demoUrl: 'https://atx-iphone-repair.vercel.app/',
     githubUrl: 'https://github.com/Devante05/iphone-repair',
-    image: 'https://via.placeholder.com/400x250/00d4ff/ffffff?text=E-Commerce+Platform',
+    image: '/images/projects/atx-iphone-repair.vercel.app.png',
     featured: true
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     technologies: ['TypeScript', 'React', 'Vite', 'Vercel'],
     demoUrl: 'https://crypto-store-nine.vercel.app/',
     githubUrl: 'https://github.com/Devante05/crypto-store',
-    image: 'https://via.placeholder.com/400x250/00ff88/000000?text=Task+Manager',
+    image: '/images/projects/crypto-store-nine.vercel.app.png',
     featured: true
   }
 ]
