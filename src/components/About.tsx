@@ -62,6 +62,31 @@ export default function About() {
                     <span className="text-sm font-bold">LI</span>
                   </a>
                 </div>
+
+                {/* Resume QR Code */}
+                <div className="mt-6 pt-6 border-t border-gray-700">
+                  <h4 className="text-lg font-semibold text-white mb-3">📄 My Resume</h4>
+                  <div className="flex flex-col items-center space-y-3">
+                    <div className="w-24 h-24 sm:w-28 sm:h-28 border-2 border-crypto-accent rounded-lg overflow-hidden bg-white p-1">
+                      <img 
+                        src="/images/frame.png" 
+                        alt="Scan QR code to view resume"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <p className="text-xs text-gray-400 text-center max-w-32">
+                      Scan to view my resume
+                    </p>
+                    <a 
+                      href="/DevanteWilliamsResume.pdf" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm px-3 py-1 border border-crypto-accent text-crypto-accent rounded hover:bg-crypto-accent hover:text-black transition-all duration-300"
+                    >
+                      Download PDF
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

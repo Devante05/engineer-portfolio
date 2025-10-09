@@ -135,6 +135,33 @@ export default function Contact() {
                   </a>
                 </div>
               </div>
+
+              {/* Resume QR Code */}
+              <div>
+                <h4 className="text-white font-semibold mb-4">📄 Resume</h4>
+                <div className="flex items-center space-x-4">
+                  <div className="w-16 h-16 border-2 border-crypto-accent rounded-lg overflow-hidden bg-white p-1 flex-shrink-0">
+                    <img 
+                      src="/images/frame.png" 
+                      alt="Scan QR code to view resume"
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                  <div>
+                    <p className="text-gray-300 text-sm mb-2">
+                      Scan QR code or download
+                    </p>
+                    <a 
+                      href="/DevanteWilliamsResume.pdf" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm px-3 py-1 border border-crypto-accent text-crypto-accent rounded hover:bg-crypto-accent hover:text-black transition-all duration-300 inline-block"
+                    >
+                      Download PDF
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
 
             {/* Contact form */}
