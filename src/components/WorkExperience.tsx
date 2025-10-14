@@ -7,6 +7,7 @@ export default function WorkExperience() {
       period: '06/2021 - 10/2025',
       responsibilities: [
         'Develop and maintain frontend and backend software solutions to enhance application features and performance',
+        'Lead and architect critical infrastructure projects, including designing and implementing a comprehensive healthchecking system for ECS scheduled tasks that provided real-time alerting when cron jobs failed to execute or encountered runtime errors. Built sophisticated auto-remediation capabilities to automatically retry missed job executions and unlock jobs that became stuck due to failed lock mechanisms',
         'Resolve tickets related to application bugs and errors, implementing optimal software solutions',
         'Utilize CI/CD tooling for seamless integration and deployment processes',
         'Apply extensive knowledge of AWS Cloud environments and tools',
