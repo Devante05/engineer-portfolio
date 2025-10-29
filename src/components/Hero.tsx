@@ -50,6 +50,34 @@ export default function Hero() {
             </button>
           </div>
 
+          {/* Testimonial Quote */}
+          <div className="mt-12 max-w-3xl mx-auto">
+            <div className="crypto-card border-l-4 border-crypto-accent">
+              <div className="flex items-start space-x-4">
+                <span className="text-4xl text-crypto-accent">"</span>
+                <div>
+                  <p className="text-gray-300 italic text-lg leading-relaxed mb-4">
+                    He brings the right mix of technical skill, accountability, and team spirit that every engineering team needs.
+                  </p>
+                  <div className="flex items-center justify-between flex-wrap gap-2">
+                    <div>
+                      <p className="text-white font-semibold">Sayeef Bazli</p>
+                      <p className="text-sm text-gray-400">Director of Operations, GLG</p>
+                    </div>
+                    <a 
+                      href="/contact-redacted-devante-reference.pdf" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-crypto-accent hover:underline"
+                    >
+                      Read Full Letter →
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Tech stack preview */}
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
             {['TypeScript', 'React', 'Node.js', 'Python'].map((tech, index) => (
