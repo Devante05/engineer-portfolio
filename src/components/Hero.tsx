@@ -8,7 +8,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16 md:pt-20">
       {/* Background effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-crypto-accent/5 via-transparent to-transparent"></div>
